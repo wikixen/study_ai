@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import { Flashcard } from "./types";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyAC97upHOKhqQY1hRwqe8PAylodTvG4v68" });
+const ai = new GoogleGenAI({});
 
 interface Params {
   questionAmount: number;
